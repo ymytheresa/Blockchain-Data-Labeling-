@@ -36,7 +36,7 @@ class DataLabelingIndex extends Component {
       <Layout>
         <div>
           <h3>Open DataLabelings</h3>
-          <Link href="/DataLabelings/new">
+          <Link href="/campaigns/new">
             <a>
               <Button
                 content="Create DataLabeling"
