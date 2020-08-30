@@ -3,7 +3,7 @@
 
 const HDWalletProvider = require("truffle-hdwallet-provider");
 const Web3 = require("web3");
-const compiledFactory = require("./build/CampaignFactory.json");
+const compiledFactory = require("./build/DataLabelingFactory.json");
 const mnemonic = "company cost angry minor indoor canal fall whip club chase idle fiber";
 const network = "https://rinkeby.infura.io/v3/9d9db26b6f8f47f5b3f2e04c8ca9f9fa";
 

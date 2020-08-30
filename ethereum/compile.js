@@ -11,9 +11,9 @@ fs.removeSync(buildPath);
 fs.ensureDirSync(buildPath);
 
 //compile path
-const campaignPath = path.resolve(__dirname, 'contracts', 'Campaign.sol');
-const source = fs.readFileSync(campaignPath, 'utf8');
-const contractFileName = "Campaign.sol";
+const DLPath = path.resolve(__dirname, 'contracts', 'DataLabeling.sol');
+const source = fs.readFileSync(DLPath, 'utf8');
+const contractFileName = "DataLabeling.sol";
 
 const input = {
     language: "Solidity",
